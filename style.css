@@ -3,26 +3,7 @@
       font-family: "Inconsolata", monospace;
       height: 100vh;}
 
-.container {padding: 0 100px;
-           display: flex;
-           flex-wrap: wrap;
-           justify-content: center;
-           gap:20px;}
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column; /* stack boxes */
-    align-items: center;
-  }
-.box {
-  flex: 1 1 300px; /* grow, shrink, base width */
-  max-width: 500px;
-  height: 400px;
-  background: #dcdcdc;
-}
-  .box {
-    width: 90%;
-    height: auto; /* let it grow naturally */
-  }
+.container {padding: 0 100px;}
 .box-1{height: 320px;
 width: 560px;
 background-color:#CFCFCF;
@@ -285,6 +266,7 @@ cursor:pointer;}
 .seemore:hover{border: 2px solid white; border-top: 2px solid black;
       border-left: 2px solid black;
     background-color:#d5d5d5;}
+
 
 
 
